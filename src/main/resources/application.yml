@@ -1,0 +1,14 @@
+server:
+  port: 8900
+
+spring:
+  datasource:
+      url: jdbc:postgresql://localhost:5433/nexus_test
+      username: postgres
+      password: root
+  jpa:
+      hibernate:
+          ddl-auto: update
+      properties:
+          hibernate:
+              dialect: org.hibernate.dialect.PostgreSQLDialect
